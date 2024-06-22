@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/illuminated-buildings-against-cloudy-sky-dusk_1048944-23032799.jpg?w=360");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    border: 2px solid;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: hsl(0, 0%, 0.1);
+    backdrop-filter: blur(50px);
+
+}
